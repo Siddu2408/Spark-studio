@@ -2,7 +2,7 @@
 
  React application that lets users search & consume NASA Media.
  
- Clone the project using  [git clone https://github.com/Siddu2408/Spark-studio.git]
+ To clone the project run "git clone https://github.com/Siddu2408/Spark-studio.git" from your terminal
  
  Open project folder from your favourite code Edit
  
