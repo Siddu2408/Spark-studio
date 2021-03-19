@@ -6,7 +6,7 @@
  
  Open project folder from your favourite code Edit
  
- Create .env file and add REACT_APP_API_KEY={place your NASA API key}
+ Create .env file in main folder of project and add REACT_APP_API_KEY={place your NASA API key}
  
  To install npm project run "npm install" from termonal
  
