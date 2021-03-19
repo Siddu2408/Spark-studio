@@ -1,0 +1,115 @@
+@import "./styles/variables.scss";
+
+* {
+  outline: none !important;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  line-height: 1.5;
+  background-color: $page-background-color;
+}
+
+.navbar {
+  background-color: $header-color;
+  color: $header-font-color;
+  text-align: center;
+  font-size: $font-lg;
+  padding: 15px;
+}
+
+.search-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .title {
+    font-size: $font-lg;
+  }
+}
+
+.img-container {
+  text-align: center;
+  img {
+    width: auto;
+    height: 500px;
+  }
+}
+
+.description {
+  width: 90vw;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+.date-content {
+  text-align: center;
+  width: 90vw;
+}
+
+.search-image {
+  width: 275;
+  height: 175px;
+  object-fit: cover;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.ant-card.ant-card-bordered.ant-card-hoverable.search-card {
+  margin: 20px;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-main-container {
+  text-align: center;
+}
+
+button.ant-btn.back-btn {
+  position: absolute;
+  left: 2.5rem;
+}
+
+.related-search {
+  font-size: $font-lg;
+  text-align: left;
+  padding: 20px;
+}
+
+.search-badge {
+  border: 1px solid grey;
+  display: inline-block;
+  padding: 5px 10px 5px 10px;
+  font-size: $font-sm;
+  border-radius: 25px;
+  background-color: $white;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.spinner {
+  padding: 30px 50px;
+  text-align: center;
+  background-color: $page-background-color;
+  height: 90vh;
+  border-radius: 4px;
+}
