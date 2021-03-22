@@ -61,7 +61,7 @@ export default class componentName extends Component {
       <>
       {!loading ? 
        <>
-        { !isSearchEnabled ? (
+        { !isSearchEnabled ? ( pictureData.title ? 
            <div>
             <div className="search-container">
               <div className="title">
@@ -83,7 +83,7 @@ export default class componentName extends Component {
               {pictureData.explanation}
             </p>
             <p className="date-content">Date: {pictureData.date}</p>
-          </div>) : (<SearchResults searchQuery={searchQuery} manageSearch= {this.manageSearch} onChangeSearch={this.onChangeSearch} />)}
+          </div> :  <div className="error-content">SOMETHING WENT WRONG</div>) : (<SearchResults searchQuery={searchQuery} manageSearch= {this.manageSearch} onChangeSearch={this.onChangeSearch} />)}
          </> :  <div className="spinner"><Spin /></div> }
        </>
     );
